@@ -1,10 +1,7 @@
-quick start
-========================
+# User Authentication With Passport.js
 
-1. `$ git clone git@github.com:mjhea0/node-bootstrap3-template.git your_app`
-2. `$ cd your_app`
-3. `$ npm install`
-4. `$ node app`
+- In this post I’ll demonstrate how to add user authentication to Node.js with Passport.js. 
+- View the blog post here: http://mherman.org/blog/2013/11/11/user-authentication-with-passport-dot-js/
 
 
 
