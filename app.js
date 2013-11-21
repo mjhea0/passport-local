@@ -43,5 +43,5 @@ mongoose.connect('mongodb://localhost/passport_local_mongoose');
 require('./routes')(app);
 
 app.listen(app.get('port'), function(){
-  ("Express server listening on port " + app.get('port'))
+  console.log(("Express server listening on port " + app.get('port')))
 });

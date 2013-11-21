@@ -17,7 +17,9 @@ module.exports = function (app) {
             return res.render("register", {info: "Sorry. That username already exists. Try again."});
           }
 
-          res.redirect('/login');
+          passport.authenticate('local')(req, res, function () {
+            res.redirect('/');
+          });
       });
   });
 
