@@ -1,10 +1,11 @@
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema,
-    passportLocalMongoose = require('passport-local-mongoose');
+    passportLocalMongoose = require('passport-local-mongoose'),
+    bcrypt = require('bcrypt-nodejs');
 
 var Account = new Schema({
-    nickname: String,
-    birthdate: Date
+    username: String,
+    password: String
 });
 
 Account.plugin(passportLocalMongoose);
