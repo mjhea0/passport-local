@@ -30,6 +30,7 @@
     "passport-local-mongoose": "~0.2.5",
     "mocha": "~1.14.0",
     "chai": "~1.8.1",
-    "should": "~2.1.0"
+    "should": "~2.1.0",
+    "bcrypt-nodejs": "0.0.3"
   }
 }
